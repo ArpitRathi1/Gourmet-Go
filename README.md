@@ -58,3 +58,11 @@ Gourmet-Go/
 ├── package.json
 └── README.md
 ```
+
+## Contributing
+
+Contributions are welcome! Please fork this repository and open a pull request to suggest improvements or new features.
+
+## Contact
+
+For any inquiries, please contact [rathi844@gmail.com](mailto:rathi844@gmail.com).
