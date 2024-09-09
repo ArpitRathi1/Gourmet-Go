@@ -1,1 +1,3 @@
 # Gourmet-Go
+
+Gourmet-Go is a multi-page food ordering website built using React JS. It offers a seamless user experience with its home page, cart page, place order page, and a display-only login/signup popup. The site features category-based food item filtering, allowing users to sort items by categories such as salads, rolls, desserts, and more. The website leverages Context API for efficient state management and Tailwind CSS for responsive design.
