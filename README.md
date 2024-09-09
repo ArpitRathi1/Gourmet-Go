@@ -11,3 +11,9 @@ Gourmet-Go is a multi-page food ordering website built using React JS. It offers
 - **Login/Signup Popup**: A non-functional popup designed to display login or signup options.
 - **State Management**: Utilizes Context API to manage the state effectively across components.
 - **Styling**: Fully responsive and styled using Tailwind CSS.
+
+## Tech Stack
+
+- **React JS**: Front-end library for building user interfaces.
+- **Context API**: For global state management.
+- **Tailwind CSS**: For styling and responsiveness.
