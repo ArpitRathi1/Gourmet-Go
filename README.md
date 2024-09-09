@@ -39,3 +39,22 @@ To run this project locally:
     ```
 
 4. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+
+## Folder structure
+
+```plaintext
+Gourmet-Go/
+│
+├── index.html
+│
+├── src/
+│   ├── components/       # Reusable components
+│   ├── context/          # Context API setup
+│   ├── pages/            # Home, Cart, and Place Order pages
+│   ├── App.jsx           # Main App component
+│   ├── index.jsx         # Entry point
+│
+├── tailwind.config.js    # Tailwind CSS configuration
+├── package.json
+└── README.md
+```
