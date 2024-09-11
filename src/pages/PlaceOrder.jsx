@@ -49,7 +49,7 @@ const PlaceOrder = () => {
                 <b>${getTotalCartAmmount() === 0 ? 0 : getTotalCartAmmount() + 2}</b>
               </div>
             </div>
-            <button onClick={() => natigate("/")} className='text-white w-full bg-[#FF6347] md:w-[max(15vw,200px)] py-3 rounded'>PROCEED TO PAYMENT</button>  
+            <button onClick={() => navigate("/")} className='text-white w-full bg-[#FF6347] md:w-[max(15vw,200px)] py-3 rounded'>PROCEED TO PAYMENT</button>  
         </div>
       </div>  
     </form>
