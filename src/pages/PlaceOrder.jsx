@@ -1,7 +1,10 @@
 import React, { useContext } from 'react'
 import { StoreContext } from '../context/StoreContext'
+import { useNavigate } from 'react-router-dom'
 
 const PlaceOrder = () => {
+
+  const navigate = useNavigate()
 
   const {getTotalCartAmmount} = useContext(StoreContext)
 
@@ -46,7 +49,7 @@ const PlaceOrder = () => {
                 <b>${getTotalCartAmmount() === 0 ? 0 : getTotalCartAmmount() + 2}</b>
               </div>
             </div>
-            <button className='text-white w-full bg-[#FF6347] md:w-[max(15vw,200px)] py-3 rounded'>PROCEED TO PAYMENT</button>  
+            <button onClick={() => natigate("/")} className='text-white w-full bg-[#FF6347] md:w-[max(15vw,200px)] py-3 rounded'>PROCEED TO PAYMENT</button>  
         </div>
       </div>  
     </form>
