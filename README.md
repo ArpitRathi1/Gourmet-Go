@@ -20,6 +20,15 @@ Gourmet-Go is a multi-page food ordering website built using React JS. It offers
 
 ## Getting Started
 
+### Prerequisites
+
+- Node.js
+- npm
+```bash
+sudo apt update
+sudo apt install -y nodejs
+```
+
 To run this project locally:
 
 1. **Clone the repository:**
