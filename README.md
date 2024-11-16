@@ -33,7 +33,7 @@ To run this project locally:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/ArpitRathi1/Gourmet-Go.git
+    git clone git@github.com:ArpitRathi1/Gourmet-Go.git
     cd Gourmet-Go
     ```
 
